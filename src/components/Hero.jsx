@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="hero-text glass">
           <h2 className="greeting">Hello, I'm</h2>
           <h1 className="name text-gradient">Laxman Kumar Busetty</h1>
-          <h3 className="title">AI Engineer</h3>
+          <h3 className="title">AI/ML Engineer</h3>
           <p className="summary">
             Focused on building production-grade AI agents, LLM applications, and customer-facing AI systems.
           </p>

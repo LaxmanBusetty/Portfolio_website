@@ -8,7 +8,7 @@ const About = () => {
         <h2>About <span className="text-gradient">Me</span></h2>
         <div className="about-content glass">
           <p className="about-text">
-            I am an AI Engineer with a strong builder mindset, specializing in rapidly prototyping and deploying AI-native applications. My focus lies in creating robust, scalable systems that leverage the latest in Large Language Models and AI engineering practices.
+            I am an AI/ML Engineer with a strong builder mindset, specializing in rapidly prototyping and deploying AI-native applications. My focus lies in creating robust, scalable systems that leverage the latest in Large Language Models and AI engineering practices.
           </p>
           <div className="about-highlights">
             <div className="highlight-card">
