@@ -1,0 +1,53 @@
+.edu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+}
+
+.column-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+}
+
+.edu-card {
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  transition: var(--transition);
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.edu-card h4 {
+  font-size: 1.25rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.edu-card h5 {
+  font-size: 1rem;
+  color: var(--accent-secondary);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.edu-card .period {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.2rem 0.6rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.edu-card p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}

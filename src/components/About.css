@@ -1,0 +1,68 @@
+.about-section {
+  position: relative;
+  z-index: 1;
+}
+
+.about-content {
+  padding: 3rem;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+  line-height: 1.8;
+}
+
+.about-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.highlight-card {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  transition: var(--transition);
+}
+
+.highlight-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-5px);
+  border-color: rgba(59, 130, 246, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--accent-gradient);
+  color: #fff;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+}
+
+.highlight-card h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.highlight-card p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    padding: 2rem 1.5rem;
+  }
+}
