@@ -1,16 +1,55 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, AI-themed personal portfolio website built to showcase my experience as an AI Engineer.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Modern & Premium Design**: Dark theme with glassmorphism effects and custom gradient accents.
+- **Responsive Layout**: Fully responsive and optimized for mobile, tablet, and desktop viewing.
+- **Smooth Animations**: Subtle micro-animations, hover effects, and smooth scrolling for a dynamic user experience.
+- **Custom Built**: Developed using React, Vite, and Vanilla CSS without relying on generic component libraries.
 
-## React Compiler
+## Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling**: Vanilla CSS with custom properties and animations
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/) (FontAwesome)
+- **Typography**: Google Fonts (Outfit and Inter)
 
-## Expanding the ESLint configuration
+## Local Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally on your machine:
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/LaxmanBusetty/Portfolio_website.git
+   cd Portfolio_website
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to the local URL provided (usually `http://localhost:5173`).
+
+## Building for Production
+
+To build the static files for production deployment:
+
+```bash
+npm run build
+```
+
+This will generate a `dist` directory with the optimized build.
+
+## Author
+
+**Laxman Kumar Busetty**
+- LinkedIn: [laxmanbusetty](https://www.linkedin.com/in/laxmanbusetty)
+- GitHub: [LaxmanBusetty](https://github.com/LaxmanBusetty)
